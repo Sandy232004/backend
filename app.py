@@ -5,6 +5,7 @@ import numpy as np
 import yfinance as yf
 import datetime
 from sklearn.preprocessing import MinMaxScaler
+import os
 
 app = Flask(__name__)
 
